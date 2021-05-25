@@ -4,7 +4,6 @@
      font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
      padding: 0;
      margin: 0;
-     height: 100vh;
    }
 
    .main-nav {
@@ -12,11 +11,27 @@
      margin: 0;
      padding: 0;
      list-style: none;
+     align-items: center;
    }
 
    .main-nav a {
      padding: .5em 1em;
      display: block;
+     text-decoration: none;
+     color: rgba(0, 0, 0, 0.87);
+     font-size: .95rem;
+   }
+
+   .main-nav a:hover {
+     text-decoration: underline;
+   }
+
+   .main-nav .apps {
+     font-size: 1.6rem;
+   }
+
+   .main-nav .acc_circle {
+     font-size: 2rem;
    }
 
    .push {
@@ -25,6 +40,7 @@
 
    main {
      padding: 10%;
+     height: 63vh
    }
 
    main img {
@@ -48,4 +64,24 @@
      padding: 0.5rem;
      line-height: 1.25rem;
      width: 90%;
+   }
+
+   .footer {
+     display: flex;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     align-items: center;
+   }
+
+   .footer a {
+     padding: .5em 1em;
+     display: block;
+     text-decoration: none;
+     color: rgba(128, 115, 115, 0.603);
+     font-size: .95rem;
+   }
+
+   .footer a:hover {
+     text-decoration: underline;
    }
